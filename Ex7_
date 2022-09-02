@@ -396,7 +396,6 @@ function botPath()
     return botPath_;
 end
 
-
 function Apps(agr1); local f = io.open("/var/mobile/lg", "w");f:write("sai cú pháp");f:close();local f = io.open("/var/mobile/lg", "rb"); local ft = f:read("*all"); f:close();	
 	if agr1 == nil or string.len(agr1) < 3 or string.len(agr1) > 30 then toast(ft,10);toast(ft,10);stop();else;end;
 	--function slt(str, dele);S = {};for match in (str..dele):gmatch("(.-)"..dele) do;table.insert(S, match);end;return S;end
@@ -409,3 +408,4 @@ if ft ~= "." then toast(ft,5);toast(ft,5);break;return true;else;end;
 	usleep(1000000);
 	end;--
 end;
+
