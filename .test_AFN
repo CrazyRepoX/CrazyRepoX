@@ -1,3 +1,7 @@
 Apps("backup facebook 105677567565675");       --backup                                                       
 Apps("wipe facebook") ;                             --wipe/reset data                                                   
-Apps("restore facebook 105677567565675");           --restore data/rrs                                                
+Apps("restore facebook 105677567565675");           --restore data/rrs           
+
+
+
+Apps("wipe gmail");           --restore data/rrs     
