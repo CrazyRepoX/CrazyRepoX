@@ -4,4 +4,4 @@ Apps("restore facebook 105677567565675");           --restore data/rrs
 
 
 
-Apps("wipe gmail");           --restore data/rrs     
+Apps("wipe gmail");           --wipe gmail 
