@@ -49,6 +49,8 @@ Bước 3: cài AppsFrankyNouva. Xongvào AutoTouch và gọi hàm.
 22--Apps("PlayATE pathATE")        --SẮP CÓ      --chạy file ate không có pass
 23--Apps("PlayATE pathATE pass")        --SẮP CÓ      --chạy file ate có đặt pass
 
+24--Apps("Zipfile filepath")        --SẮP CÓ      --nén file thành tenfile.zip
+25--Apps("Zipfolder folderpath")        --SẮP CÓ   --nén folder thành tenfolder.zip
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -56,13 +58,13 @@ Bước 3: cài AppsFrankyNouva. Xongvào AutoTouch và gọi hàm.
 
                -------------------===== HẸN GIỜ:  TỰ CHẠY/ TỰ DỪNG ============-------------------
 
-24--Apps("TimerStart pathlua hour:minutes")  --SẮP CÓ   --hẹn giờ để tự CHẠY một file Lua.
-25--Apps("TimerStop pathlua hour:minutes")  --SẮP CÓ   --hẹn giờ để tự DỪNG một file Lua.
+26--Apps("TimerStart pathlua hour:minutes")  --SẮP CÓ   --hẹn giờ để tự CHẠY một file Lua.
+27--Apps("TimerStop pathlua hour:minutes")  --SẮP CÓ   --hẹn giờ để tự DỪNG một file Lua.
  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
-26--Apps("AppRun bundleidapp")  --SẮP CÓ   --mở app và mở lại khi văng (fake info tạch, app crash,v.v..).
+28--Apps("AppRun bundleidapp")  --SẮP CÓ   --mở app và mở lại khi văng (fake info tạch, app crash,v.v..).
 
 
 
