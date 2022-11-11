@@ -33,6 +33,7 @@
                -------------------===== CÁC HÀM CHO XOAINFO ============-------------------
 --Apps("XReset")                      --Reset data app và fake info bằng Xoainfo
 --Apps("XBackup")       --SẮP CÓ                 --Lưu RRS và Reset thành thiết bị mới
+--Apps("XBackup ten_backup nd_ghichu")       --SẮP CÓ                 --Lưu RRS theo tên nội dung ghi chú và tên backup và Reset thành thiết bị mới
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
