@@ -39,8 +39,14 @@
 
                -------------------===== XỬ LÝ FILE: txt,lua,ate,v.v... ============-------------------
 --Apps("DeleteFile pathfile")        --xóa file có đường dẫn là pathfile
---Apps("CreatATE pathlua pass")              --tạo mã hóa file lua thành file ate có pass
 --Apps("Readfile pathfile")   --SẮP CÓ   --đọc nội dung file, đầu ra ở clipboard.
+--Apps("CreatATE pathlua pass")    --SẮP CÓ          --tạo mã hóa file lua thành file ate có pass
+--Apps("PlayLua pathlua")        --SẮP CÓ      --chạy file lua có đường dẫn là pathlua
+--Apps("StopyLua pathlua")        --SẮP CÓ      --DỪNG file lua có đường dẫn là pathlua
+--Apps("PlayATE pathATE")        --SẮP CÓ      --chạy file ate không có pass
+--Apps("PlayATE pathATE pass")        --SẮP CÓ      --chạy file ate có đặt pass
+
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
