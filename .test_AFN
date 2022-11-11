@@ -24,7 +24,7 @@
 
                -------------------===== NGUỒN - HỆ THỐNG ============-------------------
 --Apps("respring")    --khởi động nhanh
---Apps("reboot")      --sập nguồn khởi động
+--Apps("reboot")      --sập nguồn + khởi động
 --Apps("uicahce")     --dọn nền, load lại homescreen
 --Apps("fixTouch");                   --fix lỗi mất không chạm màn kinh điển của ATT v6,v7
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
