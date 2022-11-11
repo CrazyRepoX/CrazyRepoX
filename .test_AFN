@@ -20,4 +20,5 @@ Apps("XReset")                      --Reset data app và fake info bằng Xoainf
 
 
 Apps("DeleteFile pathfile")        --xóa file có đường dẫn là pathfile
+Apps("CreatATE pathlua pass")              --tạo mã hóa file lua thành file ate có pass
 ]]
