@@ -2,7 +2,7 @@ Apps("backup facebook 105677567565675");            --backup
 Apps("wipe facebook") ;                             --wipe/reset data                                                   
 Apps("restore facebook 105677567565675");           --restore data/rrs           
 
-
+--[[
 --Apps("ResetIP")      --Reset IP bangwf SIM 3G/4G.
 --Apps("VPN ON")       --bật/tắt VPN
 --Apps("3G ON")       --bật/tắt 3G
@@ -13,3 +13,5 @@ Apps("restore facebook 105677567565675");           --restore data/rrs
 --Apps("wipe tenappbatki");         --wipe gmail 
 Apps("wipe gmail");                 --wipe gmail 
 Apps("fixTouch");                   --fix lỗi mất không chạm màn
+
+]]
