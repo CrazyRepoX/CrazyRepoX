@@ -6,6 +6,8 @@ Apps("restore facebook 105677567565675");           --restore data/rrs
 --Apps("ResetIP")      --Reset IP bangwf SIM 3G/4G.
 --Apps("VPN ON")       --bật/tắt VPN
 --Apps("3G ON")       --bật/tắt 3G
+--Apps("WIFI ON")       --bật/tắt WIFI
+
 --Apps("respring")    --khởi động nhanh
 --Apps("reboot")      --sập nguồn khởi động
 --Apps("uicahce")     --dọn nền, load lại homescreen
@@ -14,4 +16,8 @@ Apps("restore facebook 105677567565675");           --restore data/rrs
 Apps("wipe gmail");                 --wipe gmail 
 Apps("fixTouch");                   --fix lỗi mất không chạm màn
 
+Apps("XReset")                      --Reset data app và fake info bằng Xoainfo
+
+
+Apps("DeleteFile pathfile")        --xóa file có đường dẫn là pathfile
 ]]
