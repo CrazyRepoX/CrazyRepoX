@@ -30,5 +30,9 @@
 --Apps("TimerStop pathlua time:hour")  --SẮP CÓ   --hẹn giờ để tự DỪNG một file Lua.
 
 --Apps("AppRun bundleidapp")  --SẮP CÓ   --mở app và mở lại khi văng (fake info tạch, app crash,v.v..).
+--Apps("Readfile pathfile")   --SẮP CÓ   --đọc nội dung file, đầu ra ở clipboard.
+
+
+
 
 --=============================    CẢNH BÁO : VUI LONG COPY func/hàm ra file .lua khác để test =======================================
