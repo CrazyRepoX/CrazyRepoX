@@ -2,35 +2,64 @@
 --=============================    CẢNH BÁO : VUI LONG COPY func/hàm ra file .lua khác để test =======================================
 
 
+
+
+
+               -------------------===== BACKUP/RESTORE/WIPE DATA APP ============-------------------
+
 --Apps("backup facebook 105677567565675");            --backup                                                       
 --Apps("wipe facebook") ;                             --wipe/reset data                                                   
 --Apps("restore facebook 105677567565675");           --restore data/rrs           
+--Apps("wipe tenappbatki");         --wipe gmail 
+--Apps("wipe gmail");                 --wipe gmail 
 
 
+
+
+
+               -------------------===== KẾT NỐI ============-------------------
 --Apps("ResetIP")      --Reset IP bangwf SIM 3G/4G.
 --Apps("VPN ON")       --bật/tắt VPN
 --Apps("3G ON")       --bật/tắt 3G
 --Apps("WIFI ON")       --bật/tắt WIFI
 
+
+
+               -------------------===== NGUỒN - HỆ THỐNG ============-------------------
+
 --Apps("respring")    --khởi động nhanh
 --Apps("reboot")      --sập nguồn khởi động
 --Apps("uicahce")     --dọn nền, load lại homescreen
-
---Apps("wipe tenappbatki");         --wipe gmail 
---Apps("wipe gmail");                 --wipe gmail 
 --Apps("fixTouch");                   --fix lỗi mất không chạm màn kinh điển của ATT v6,v7
 
---Apps("XReset")                      --Reset data app và fake info bằng Xoainfo
 
+
+               -------------------===== CÁC HÀM CHO XOAINFO ============-------------------
+
+--Apps("XReset")                      --Reset data app và fake info bằng Xoainfo
+--Apps("XBackup")       --SẮP CÓ                 --Lưu RRS và Reset thành thiết bị mới
+
+
+
+
+               -------------------===== XỬ LÝ FILE: txt,lua,ate,v.v... ============-------------------
 
 --Apps("DeleteFile pathfile")        --xóa file có đường dẫn là pathfile
 --Apps("CreatATE pathlua pass")              --tạo mã hóa file lua thành file ate có pass
+--Apps("Readfile pathfile")   --SẮP CÓ   --đọc nội dung file, đầu ra ở clipboard.
+
+
+
+
+               -------------------===== HẸN GIỜ:  TỰ CHẠY/ TỰ DỪNG ============-------------------
 
 --Apps("TimerStart pathlua time:hour")  --SẮP CÓ   --hẹn giờ để tự CHẠY một file Lua.
 --Apps("TimerStop pathlua time:hour")  --SẮP CÓ   --hẹn giờ để tự DỪNG một file Lua.
 
+
+
+
 --Apps("AppRun bundleidapp")  --SẮP CÓ   --mở app và mở lại khi văng (fake info tạch, app crash,v.v..).
---Apps("Readfile pathfile")   --SẮP CÓ   --đọc nội dung file, đầu ra ở clipboard.
 
 
 
