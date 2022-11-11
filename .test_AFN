@@ -26,6 +26,7 @@
 --Apps("DeleteFile pathfile")        --xóa file có đường dẫn là pathfile
 --Apps("CreatATE pathlua pass")              --tạo mã hóa file lua thành file ate có pass
 
-
+--Apps("TimerStart pathlua time:hour")  --SẮP CÓ   --hẹn giờ để tự CHẠY một file Lua.
+--Apps("TimerStop pathlua time:hour")  --SẮP CÓ   --hẹn giờ để tự DỪNG một file Lua.
 
 --=============================    CẢNH BÁO : VUI LONG COPY func/hàm ra file .lua khác để test =======================================
