@@ -2,11 +2,11 @@
 --=============================    CẢNH BÁO : VUI LONG COPY func/hàm ra file .lua khác để test =======================================
 
 
-Apps("backup facebook 105677567565675");            --backup                                                       
-Apps("wipe facebook") ;                             --wipe/reset data                                                   
-Apps("restore facebook 105677567565675");           --restore data/rrs           
+--Apps("backup facebook 105677567565675");            --backup                                                       
+--Apps("wipe facebook") ;                             --wipe/reset data                                                   
+--Apps("restore facebook 105677567565675");           --restore data/rrs           
 
---[[
+
 --Apps("ResetIP")      --Reset IP bangwf SIM 3G/4G.
 --Apps("VPN ON")       --bật/tắt VPN
 --Apps("3G ON")       --bật/tắt 3G
@@ -17,15 +17,15 @@ Apps("restore facebook 105677567565675");           --restore data/rrs
 --Apps("uicahce")     --dọn nền, load lại homescreen
 
 --Apps("wipe tenappbatki");         --wipe gmail 
-Apps("wipe gmail");                 --wipe gmail 
-Apps("fixTouch");                   --fix lỗi mất không chạm màn
+--Apps("wipe gmail");                 --wipe gmail 
+--Apps("fixTouch");                   --fix lỗi mất không chạm màn
 
-Apps("XReset")                      --Reset data app và fake info bằng Xoainfo
+--Apps("XReset")                      --Reset data app và fake info bằng Xoainfo
 
 
-Apps("DeleteFile pathfile")        --xóa file có đường dẫn là pathfile
-Apps("CreatATE pathlua pass")              --tạo mã hóa file lua thành file ate có pass
-]]
+--Apps("DeleteFile pathfile")        --xóa file có đường dẫn là pathfile
+--Apps("CreatATE pathlua pass")              --tạo mã hóa file lua thành file ate có pass
+
 
 
 --=============================    CẢNH BÁO : VUI LONG COPY func/hàm ra file .lua khác để test =======================================
