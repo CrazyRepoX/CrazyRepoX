@@ -6,7 +6,7 @@ Bước 2: cài Filza, Apps Manager bản không crack.
 Bước 3: cài AppsFrankyNouva. Xongvào AutoTouch và gọi hàm.
 
                -------------------===== BACKUP/RESTORE/WIPE DATA APP ============-------------------
-1--Apps("backup facebook 105677567565675");            --backup                                                       
+1--Apps("backup facebook 105677567565675");            --backup  + tự tối ưu file backup, vd: fb chỉ < 2Mb/acc                                                  
 2--Apps("wipe facebook") ;                             --wipe/reset data                                                   
 3--Apps("restore facebook 105677567565675");           --restore data/rrs           
 4--Apps("wipe tenappbatki");         --wipe gmail 
