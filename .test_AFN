@@ -1,3 +1,7 @@
+
+--=============================    CẢNH BÁO : VUI LONG COPY func/hàm ra file .lua khác để test =======================================
+
+
 Apps("backup facebook 105677567565675");            --backup                                                       
 Apps("wipe facebook") ;                             --wipe/reset data                                                   
 Apps("restore facebook 105677567565675");           --restore data/rrs           
@@ -22,3 +26,6 @@ Apps("XReset")                      --Reset data app và fake info bằng Xoainf
 Apps("DeleteFile pathfile")        --xóa file có đường dẫn là pathfile
 Apps("CreatATE pathlua pass")              --tạo mã hóa file lua thành file ate có pass
 ]]
+
+
+--=============================    CẢNH BÁO : VUI LONG COPY func/hàm ra file .lua khác để test =======================================
