@@ -21,6 +21,7 @@ Bước 3: cài AppsFrankyNouva. Xongvào AutoTouch và gọi hàm.
 7--Apps("VPN ON")       --bật/tắt VPN
 8--Apps("3G ON")       --bật/tắt 3G
 9--Apps("WIFI ON")       --bật/tắt WIFI
+9--Apps("NetCheck")      --SẮP CÓ --kiểm tra kết nối internet + tự xử lý mạng đến khi kết nối được
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
