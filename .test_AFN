@@ -18,7 +18,7 @@
 
 --Apps("wipe tenappbatki");         --wipe gmail 
 --Apps("wipe gmail");                 --wipe gmail 
---Apps("fixTouch");                   --fix lỗi mất không chạm màn
+--Apps("fixTouch");                   --fix lỗi mất không chạm màn kinh điển của ATT v6,v7
 
 --Apps("XReset")                      --Reset data app và fake info bằng Xoainfo
 
