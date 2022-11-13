@@ -14,6 +14,8 @@ Bước 3: cài AppsFrankyNouva. Xongvào AutoTouch và gọi hàm.
 3--Apps("restore facebook 105677567565675");           --restore data/rrs           
 4--Apps("wipe tenappbatki");         --wipe gmail 
 5--Apps("wipe gmail");                 --wipe gmail 
+28--Apps("AppRun com.apple.mobilesafari")             --bật app bằng dc + có fix crash + cảnh báo khi quá số lần thử
+29--Apps("AppKill com.apple.mobilesafari")            --tắt app bằng dc + fix cho cả các ios + app kén
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -66,9 +68,6 @@ Bước 3: cài AppsFrankyNouva. Xongvào AutoTouch và gọi hàm.
 27--Apps("TimerStop pathlua hour:minutes")  --SẮP CÓ   --hẹn giờ để tự DỪNG một file Lua.
  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-
-28--Apps("AppRun bundleidapp")  --SẮP CÓ   --mở app và mở lại khi văng (fake info tạch, app crash,v.v..).
 
 
 
