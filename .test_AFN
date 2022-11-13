@@ -22,6 +22,13 @@ Bước 3: cài AppsFrankyNouva. Xongvào AutoTouch và gọi hàm.
 
                -------------------===== Chuỗi/Tách ============-------------------
 30--Apps("findText google")     hoặc --Apps("findText google 10")                                -- tìm chữ "google" trong x vòng có xuất hiện không,đầu ra là clipText = YES/NO
+-------------------VD-------------------------------------
+Apps("findText google 5");
+
+if clipText() == "YES" then toast("Anh Nhân GÀ đẹp trai",5)
+elseif clipText() == "NO" then	toast("Vẫn thế, vẫn đẹp trai, sự thật là hằng số !",5)
+	else;end;
+-------------------VD-------------------------------------
 
 
                -------------------===== KẾT NỐI ============-------------------
