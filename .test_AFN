@@ -20,7 +20,8 @@ Bước 3: cài AppsFrankyNouva. Xongvào AutoTouch và gọi hàm.
 29--Apps("AppKill com.apple.mobilesafari")            --tắt app bằng dc + fix cho cả các ios + app kén
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
+               -------------------===== Chuỗi/Tách ============-------------------
+30--Apps("findText google")     hoặc --Apps("findText google 10")                                -- tìm chữ "google" trong x vòng có xuất hiện không,đầu ra là clipText = YES/NO
 
 
                -------------------===== KẾT NỐI ============-------------------
