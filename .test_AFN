@@ -4,7 +4,7 @@ AppsFrankyNouva là plugin hỗ trợ kết nối nhiều tweak/app/AutoTouch đ
 
 I) HƯỚNG DẪN CÀI
 Các bước chi tiết:
--Bước 1: Thêm nguồn : kiiimrepo.com
+-Bước 1: Thêm nguồn : kiiimrepo.com (mở trang full)
 -Bước 2: cài Filza, Apps Manager bản không crack.
 -Bước 3: cài AppsFrankyNouva. Xong vào AutoTouch và gọi hàm.
 Lưu ý: Về sau, bất cứ khi cài lại AutoTouch bạn cần cài lại AppsFrankyNouva để plugin dc tích hợp lại !
@@ -17,14 +17,20 @@ Hướng dẫn nâng cấp ver mới:
 II) CÁC FUNCTION/HÀM HỖ TRỢ
 
 
+Cấu trúc gọi hàm: gọi hoa/thường gì đều được, ví dụ: Apps("ResetIP"), Apps("resetip"), Apps("Resetip"), Apps("resetIP") đều được.Kể cả "Apps" : Apps/apps/App/app.
 
 KẾT NỐI
 
 6--Apps("ResetIP") --Reset IP bằng SIM 3G/4G.
-7--Apps("VPN ON") , Apps("VPN OFF") --bật/tắt VPN
-8--Apps("3G ON") , Apps("3G OFF") --bật/tắt 3G
-9--Apps("WIFI ON") , Apps("WIFI OFF") --bật/tắt WIFI
-30--Apps("NetCheck"),Apps("NetCheck WIFI"),Apps("NetCheck 3G") --SẮP CÓ --kiểm tra kết nối internet + tự xử lý mạng đến khi kết nối được
+7--Apps("VPN ON") --bật VPN
+33--Apps("VPN OFF") --tắt VPN
+8--Apps("3G ON") --bật 3G
+34--Apps("3G OFF") --Tắt 3G
+9--Apps("WIFI ON") --bật WIFI
+35--Apps("WIFI OFF") --tắt WIFI
+30--Apps("NetCheck") SẮP CÓ --kiểm tra kết nối internet + tự xử lý mạng đến khi kết nối được
+36--Apps("NetCheck WIFI") SẮP CÓ --kiểm tra kết nối internet bằng WIFI (tự ngắt SIM hộ).
+37--Apps("NetCheck 3G") --SẮP CÓ --kiểm tra kết nối internet bằng SIM (tự ngắt WIFI hộ).
 
 
 NGUỒN - HỆ THỐNG
@@ -33,6 +39,10 @@ NGUỒN - HỆ THỐNG
 11--Apps("reboot") --sập nguồn + khởi động
 12--Apps("uicache") --dọn nền, load lại homescreen
 13--Apps("fixTouch"); --fix lỗi mất không chạm màn kinh điển của ATT v6,v7
+
+37--Apps("fakeLocation toado_x toado_y") --SẮP CÓ --fake sang địa điểm có tọa độ là x,y, google "tendiadiem + latitude" hoặc bật GG maps để tìm tọa độ.
+38--Apps("fakeLocation 0") --SẮP CÓ --dừng fake, quay về location gốc của máy.
+
 
 
 
@@ -106,14 +116,18 @@ III) CHÍNH SÁCH & ĐIỀU KHOẢN SỬ DỤNG
 -Không dùng mục đích/vi phạm Pháp Luật.
 -Không bung/crck/bẻ khóa.
 -Mọi Vi Phạm: Cấm key vĩnh viễn.
-
+-Tự chịu trách nhiệm mọi hành vi khi sử dụng.
+-Chốt mua là đã chấp nhận các điều khoản trên.
 
 IV) CHI PHÍ
+
+FREE: THỜI GIAN CHỜ LÂU, GÂY KHÓ CHỊU.
+PAID: CHẠY NGAY, HIỆU SUẤT DÀN MÁY.
 
 Từ 1-50 máy: 300k/năm/máy.
 Từ 51-200 máy: 200k/năm/máy.
 Từ 201-500 máy: 150k/năm/máy.
-Từ 501 trở lên: 50k/năm/máy.
+Từ 501 trở lên: 100k/năm/máy.
 
 Lưu ý: key mua rồi sẽ không hỗ trợ chính sách HOÀN TIỀN, anh em dc test 1 tuần trước khi QUYẾT ĐỊNH MUA, key không dc hoàn thành tiền mặt nhưng có thể CHUYỂN KEY cho người khác/ máy khác sử dụng !
 
