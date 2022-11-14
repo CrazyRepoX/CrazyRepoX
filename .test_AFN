@@ -43,7 +43,7 @@ elseif clipText() == "NO" then	toast("Vẫn thế, vẫn đẹp trai, sự thậ
                -------------------===== NGUỒN - HỆ THỐNG ============-------------------
 10--Apps("respring")    --khởi động nhanh
 11--Apps("reboot")      --sập nguồn + khởi động
-12--Apps("uicahce")     --dọn nền, load lại homescreen
+12--Apps("uicache")     --dọn nền, load lại homescreen
 13--Apps("fixTouch");                   --fix lỗi mất không chạm màn kinh điển của ATT v6,v7
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
