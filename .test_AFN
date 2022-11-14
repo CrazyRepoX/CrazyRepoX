@@ -41,7 +41,7 @@ NGUỒN - HỆ THỐNG
 13--Apps("fixTouch"); --fix lỗi mất không chạm màn kinh điển của ATT v6,v7
 
 37--Apps("fakeLocation toado_x toado_y") --SẮP CÓ --fake sang địa điểm có tọa độ là x,y, google "tendiadiem + latitude" hoặc bật GG maps để tìm tọa độ.
-38--Apps("fakeLocation 0") --SẮP CÓ --dừng fake, quay về location gốc của máy.
+38--Apps("fakelocation 0 0") --SẮP CÓ --dừng fake, quay về location gốc của máy (tọa độ 0,0)
 
 
 
