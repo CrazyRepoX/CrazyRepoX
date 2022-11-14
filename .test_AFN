@@ -1,85 +1,144 @@
 
---=============================    CẢNH BÁO : VUI LONG COPY func/hàm ra file .lua khác để test =======================================
---https://notepad.vn/svFi2jL73     https://notepad. vn/svFi2jL73
+⭕ AppsFrankyNouva
+AppsFrankyNouva là plugin hỗ trợ kết nối nhiều tweak/app/AutoTouch để auto hóa mọi thứ trên iOS, đồng thời chứa thêm vài chục/trăm function nhanh gọn cho anh em coder khi làm MMO iOS . Anh em được free test 1 tuần trước khi mua và thanh toán ! Zalo: 0933.998.772 (Mr Nhân)
 
---HƯỚNG DẪN CÀI:  vdieo hướng dẫn : https://www.youtube.com/watch?v=MQ4j85asvDw
-Bước 1: Thêm nguồn : kiiimrepo.com
-Bước 2: cài Filza, Apps Manager bản không crack.
-Bước 3: cài AppsFrankyNouva. Xongvào AutoTouch và gọi hàm.
---HƯỚNG DẪN NÂNG CẤP ver mới:
---Vào Cydia xóa bản đã cài + respring (bắt buộc) + vào Cydia cài lại bản mới nhất.
+I) HƯỚNG DẪN CÀI
+Các bước chi tiết:
+-Bước 1: Thêm nguồn : kiiimrepo.com
+-Bước 2: cài Filza, Apps Manager bản không crack.
+-Bước 3: cài AppsFrankyNouva. Xong vào AutoTouch và gọi hàm.
+Lưu ý: Về sau, bất cứ khi cài lại AutoTouch bạn cần cài lại AppsFrankyNouva để plugin dc tích hợp lại !
+
+Hướng dẫn nâng cấp ver mới:
+-Vào Cydia xóa bản đã cài + respring (bắt buộc) + vào Cydia cài lại bản mới nhất.
+-Ít khi update gì vì bản chất nó là code cố định nên cực kì ổn định.
 
 
-               -------------------===== BACKUP/RESTORE/WIPE DATA APP ============-------------------
-1--Apps("backup facebook 105677567565675");            --backup  + tự tối ưu file backup, vd: fb chỉ < 2Mb/acc                                                  
-2--Apps("wipe facebook") ;                             --wipe/reset data                                                   
-3--Apps("restore facebook 105677567565675");           --restore data/rrs           
-4--Apps("wipe tenappbatki");         --wipe gmail 
-5--Apps("wipe gmail");                 --wipe gmail 
-28--Apps("AppRun com.apple.mobilesafari")             --bật app bằng dc + có fix crash + cảnh báo khi quá số lần thử
-29--Apps("AppKill com.apple.mobilesafari")            --tắt app bằng dc + fix cho cả các ios + app kén
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+II) CÁC FUNCTION/HÀM HỖ TRỢ
 
-               -------------------===== Chuỗi/Tách ============-------------------
-30--Apps("findText google")     hoặc --Apps("findText google 10")                                -- tìm chữ "google" trong x vòng có xuất hiện không,đầu ra là clipText = YES/NO
+
+
+KẾT NỐI
+
+6--Apps("ResetIP") --Reset IP bằng SIM 3G/4G.
+7--Apps("VPN ON") , Apps("VPN OFF") --bật/tắt VPN
+8--Apps("3G ON") , Apps("3G OFF") --bật/tắt 3G
+9--Apps("WIFI ON") , Apps("WIFI OFF") --bật/tắt WIFI
+30--Apps("NetCheck"),Apps("NetCheck WIFI"),Apps("NetCheck 3G") --SẮP CÓ --kiểm tra kết nối internet + tự xử lý mạng đến khi kết nối được
+
+
+NGUỒN - HỆ THỐNG
+
+10--Apps("respring") --khởi động nhanh
+11--Apps("reboot") --sập nguồn + khởi động
+12--Apps("uicache") --dọn nền, load lại homescreen
+13--Apps("fixTouch"); --fix lỗi mất không chạm màn kinh điển của ATT v6,v7
+
+
+
+BACKUP/RESTORE/WIPE DATA APP
+
+1--Apps("backup facebook 105677567565675"); --backup + tự tối ưu file backup, vd: fb chỉ < 2Mb/acc
+2--Apps("wipe facebook") ; --wipe/reset data
+3--Apps("restore facebook 105677567565675"); --restore data/rrs
+4--Apps("wipe tenappbatki"); --wipe gmail
+5--Apps("wipe gmail"); --wipe gmail
+28--Apps("AppRun com.apple.mobilesafari") --bật app bằng dc + có fix crash + cảnh báo khi quá số lần thử
+29--Apps("AppKill com.apple.mobilesafari") --tắt app bằng dc + fix cho cả các ios + app kén
+
+
+Chuỗi/Tách
+
+30--Apps("findText google") hoặc --Apps("findText google 10") -- tìm chữ "google" trong x vòng có xuất hiện không,đầu ra là clipText = YES/NO
 -------------------VD-------------------------------------
 Apps("findText google 5");
 
 if clipText() == "YES" then toast("Anh Nhân GÀ đẹp trai",5)
-elseif clipText() == "NO" then	toast("Vẫn thế, vẫn đẹp trai, sự thật là hằng số !",5)
-	else;end;
+elseif clipText() == "NO" then toast("Vẫn thế, vẫn đẹp trai, sự thật là hằng số !",5)
+else;end;
 -------------------VD-------------------------------------
 
 
-               -------------------===== KẾT NỐI ============-------------------
-6--Apps("ResetIP")      --Reset IP bằng SIM 3G/4G.
-7--Apps("VPN ON")       --bật/tắt VPN
-8--Apps("3G ON")       --bật/tắt 3G
-9--Apps("WIFI ON")       --bật/tắt WIFI
-9--Apps("NetCheck")      --SẮP CÓ --kiểm tra kết nối internet + tự xử lý mạng đến khi kết nối được
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+CÁC HÀM CHO XOAINFO
 
-               -------------------===== NGUỒN - HỆ THỐNG ============-------------------
-10--Apps("respring")    --khởi động nhanh
-11--Apps("reboot")      --sập nguồn + khởi động
-12--Apps("uicache")     --dọn nền, load lại homescreen
-13--Apps("fixTouch");                   --fix lỗi mất không chạm màn kinh điển của ATT v6,v7
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-               -------------------===== CÁC HÀM CHO XOAINFO ============-------------------
-14--Apps("XReset")                      --Reset data app và fake info bằng Xoainfo
-15--Apps("XBackup")       --SẮP CÓ                 --Lưu RRS và Reset thành thiết bị mới
-16--Apps("XBackup ten_backup nd_ghichu")       --SẮP CÓ                 --Lưu RRS theo tên nội dung ghi chú và tên backup và Reset thành thiết bị mới
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+14--Apps("XReset") --Reset data app và fake info bằng Xoainfo
+15--Apps("XBackup") --SẮP CÓ --Lưu RRS và Reset thành thiết bị mới
+16--Apps("XBackup ten_backup nd_ghichu") --SẮP CÓ --Lưu RRS theo tên nội dung ghi chú và tên backup và Reset thành thiết bị mới
 
 
 
-               -------------------===== XỬ LÝ FILE: txt,lua,ate,v.v... ============-------------------
-17--Apps("DeleteFile pathfile")        --xóa file có đường dẫn là pathfile
-18--Apps("Readfile pathfile")   --SẮP CÓ   --đọc nội dung file, đầu ra ở clipboard.
-19--Apps("CreatATE pathlua pass")    --SẮP CÓ          --tạo mã hóa file lua thành file ate có pass
-20--Apps("PlayLua pathlua")        --SẮP CÓ      --chạy file lua có đường dẫn là pathlua
-21--Apps("StopyLua pathlua")        --SẮP CÓ      --DỪNG file lua có đường dẫn là pathlua
-22--Apps("PlayATE pathATE")        --SẮP CÓ      --chạy file ate không có pass
-23--Apps("PlayATE pathATE pass")        --SẮP CÓ      --chạy file ate có đặt pass
+XỬ LÝ FILE: txt,lua,ate,v.v...
 
-24--Apps("Zipfile filepath")        --SẮP CÓ      --nén file thành tenfile.zip
-25--Apps("Zipfolder folderpath")        --SẮP CÓ   --nén folder thành tenfolder.zip
+17--Apps("DeleteFile pathfile") --xóa file có đường dẫn là pathfile
+18--Apps("Readfile pathfile") --SẮP CÓ --đọc nội dung file, đầu ra ở clipboard.
+19--Apps("CreatATE pathlua pass") --SẮP CÓ --tạo mã hóa file lua thành file ate có pass
+20--Apps("PlayLua pathlua") --SẮP CÓ --chạy file lua có đường dẫn là pathlua
+21--Apps("StopyLua pathlua") --SẮP CÓ --DỪNG file lua có đường dẫn là pathlua
+22--Apps("PlayATE pathATE") --SẮP CÓ --chạy file ate không có pass
+23--Apps("PlayATE pathATE pass") --SẮP CÓ --chạy file ate có đặt pass
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-               -------------------===== HẸN GIỜ:  TỰ CHẠY/ TỰ DỪNG ============-------------------
-
-26--Apps("TimerStart pathlua hour:minutes")  --SẮP CÓ   --hẹn giờ để tự CHẠY một file Lua.
-27--Apps("TimerStop pathlua hour:minutes")  --SẮP CÓ   --hẹn giờ để tự DỪNG một file Lua.
- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+24--Apps("Zipfile filepath") --SẮP CÓ --nén file thành tenfile.zip
+25--Apps("Zipfolder folderpath") --SẮP CÓ --nén folder thành tenfolder.zip
 
 
 
 
+HẸN GIỜ: TỰ CHẠY/ TỰ DỪNG
 
---=============================    CẢNH BÁO : VUI LONG COPY func/hàm ra file .lua khác để test =======================================
+
+26--Apps("TimerStart pathlua hour:minutes") --SẮP CÓ --hẹn giờ để tự CHẠY một file Lua.
+27--Apps("TimerStop pathlua hour:minutes") --SẮP CÓ --hẹn giờ để tự DỪNG một file Lua.
+
+
+
+CÁC SCRIPTS/ TOOL TIỆN ÍCH (có phụ phí)
+
+
+29--Apps("LoginFB 1000003434|pass235252|2FAKSDGSDKGSKSSS") --SẮP CÓ --tự login fb
+31--Apps("Captcha Tikok") --SẮP CÓ --tự giải catcha tiktok
+32--Apps("Gettoken Facebook") --SẮP CÓ --tự lấy token của acc fb đã đăng nhập
+
+
+
+III) CHÍNH SÁCH & ĐIỀU KHOẢN SỬ DỤNG
+
+-Không dùng mục đích/vi phạm Pháp Luật.
+-Không bung/crck/bẻ khóa.
+-Mọi Vi Phạm: Cấm key vĩnh viễn.
+
+
+IV) CHI PHÍ
+
+Từ 1-50 máy: 300k/năm/máy.
+Từ 51-200 máy: 200k/năm/máy.
+Từ 201-500 máy: 150k/năm/máy.
+Từ 501 trở lên: 50k/năm/máy.
+
+Lưu ý: key mua rồi sẽ không hỗ trợ chính sách HOÀN TIỀN, anh em dc test 1 tuần trước khi QUYẾT ĐỊNH MUA, key không dc hoàn thành tiền mặt nhưng có thể CHUYỂN KEY cho người khác/ máy khác sử dụng !
+
+
+
+V) LIÊN HỆ
+
+
+ 0933.998.772 (Franky Nouva)
+
+ Franky Nouva Official
+
+ fb.com/frankynouva1
+
+
+
+
+
+Trân Trọng Cảm Ơn !
+
+
+
+© 2010 - 2022 DV Tool MMO - Bắc Từ Liêm, Hà Nội.
+
+Franky Nouva
+
+
+
